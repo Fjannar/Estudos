@@ -94,13 +94,3 @@ elif preco > 100.00:
 
 #Exercicio 15
 #Vogal ou numero?
-string = input('Digite uma letra ou um numero: ')
-teste_numero = True
-for char in string:
-    if char.isalpha():
-        teste_numero = False
-
-if teste_numero:
-    print('\né numero\n')
-else:
-    print('\né texto\n')

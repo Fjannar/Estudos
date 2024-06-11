@@ -5,5 +5,5 @@ if m == True:
     print("Sexo masculino")
 elif f == True:
     print("sexo feminino")
-else: 
+else:
     print ("Sexo invalido")
