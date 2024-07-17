@@ -94,3 +94,15 @@ elif preco > 100.00:
 
 #Exercicio 15
 #Vogal ou numero?
+def verifica_entrada(entrada):
+    vogais = ['A','a','E','e','I','i','O','o','U','u']
+    if entrada.isdigit():
+        return "numero"
+    elif entrada in vogais:
+        return "vogal"
+    else:
+        return "caracter invalido"
+
+entrada = input("Digite um caractere: ")
+resultado = verifica_entrada(entrada)
+print("A entrada é:", resultado)
